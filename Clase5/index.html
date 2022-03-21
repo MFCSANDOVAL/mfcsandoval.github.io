@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>clase5</title>
 </head>
+
 <body>
-    <h1>TITULO</h1>
+    <h1>CREAR CUENTA</h1>
     <fieldset>
         <label>
-
-           INFORMACION
-
-
+            Informaci&oacute;n Personal
         </label>
-         
-           <form>
+        <form>
+            <br>            
+            <label>Nombre *</label>
+            <input type="text" name0="nombre">
+            <label>Apellido *</label>
+            <input type="text" name="apellido" placeholder="lópez">
             <br>
-            <label>Nombre</label>
-            <input type="text" name="nombre">
-
-            <label>Apellido</label>
+            <label>Direccion de email *</label>
+            <input type="email" name="email" placeholder="mail@mail.com">
             <br>
-           </form>
+            <label>Nro de Documento *</label>
+            <input type="text" name="apellido" placeholder="xxxxxxxx">
+            <br>
 
+            <!--solo numeros-->
+            <input type="number" min="0" max="2">
+            <input type="submit" value="ENVIAR">
+        </form>
     </fieldset>
 </body>
+
 </html>
