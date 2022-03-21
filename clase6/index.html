@@ -28,7 +28,37 @@
                     <input type="submit" value="Enviar">
 
                     <input type="text" placeholder="numero del 0 a 9" required pattern="[0-9]" title="solo num de 0 a 9"> 
+                    <hr>
+                    <textarea name="info extra" cols="50" rows="5" required ></textarea>
+                    <hr>
+
+                    <select name="selectMultiple" multiple required>
+                        <optgroup label="animales">
+                            <option>leon</option>
+                            <option>tigre</option>
+                        </optgroup>
+                        <optgroup label="colores">
+                            <option>rojo</option>
+                            <option>verde</option>
+                            <option>azul</option>
+                        </optgroup>
+                    </select>
+                    
+                    <input list="browser" name="databrowser">
+                    <datalist id="browser" >
+                        <option>EDGE</option>
+                        <option>Chrome</option>
+                        <option>Firefox</option>
+                        <option>Opera</option>
+                    </datalist>
+                    <br>
+                    <input type="search" name="buscar"/>
+                    <br>
+                    <input type="search" name="buscarText"/>
+                    <br>
+
                     <input type="submit" value="Enviar">
+
                 </form>                
             </fieldset>
         </section>
