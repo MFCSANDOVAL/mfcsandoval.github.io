@@ -77,7 +77,7 @@ console.log('alumno mas chico',alumnoMasChico);
 const vector = [1,2,3,4,5,6,7,8];
 let contador = 0;
 let pos = [];
-for(let i = 0;i< vector.length,i++){
+for(let i = 0;i< vector.length;i++){
     if(vector[i]===3){
         contador++;
         pos.push(i);
