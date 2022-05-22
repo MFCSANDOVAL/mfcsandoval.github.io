@@ -67,14 +67,17 @@
 
   margin-top:30px;
   margin-left: 297px;
-  width: 890px;
   margin-right:50px;
+  
+  width: 890px;
+  
 }
- 
+
 
 table {
-  margin-top:30px;
-  margin-left: 297px;
+  /*margin-top:30px;
+  margin-left: 297px;*/
+  margin:auto;
   border-collapse: separate;
   border: black 1px solid;
 }
