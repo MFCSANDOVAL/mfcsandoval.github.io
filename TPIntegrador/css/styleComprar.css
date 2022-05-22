@@ -53,26 +53,38 @@
  #botonBorrar{
    background-color: #B3E363;
    border-color:transparent;
-   width:366px;
+  
+   width:357px;
  }
 
  #botonResumen{
   background-color: #B3E363;
   border-color:transparent;
-  width: 366px;
+  
+  width: 357px;
+}
+
+
+.botonesVerdes{
+  margin: 0 auto;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 890px;
 }
  
 
-.formularioTickets{
-
-  margin-top:30px;
-  margin-left: 297px;
-  margin-right:50px;
-  
-  width: 890px;
-  
+.form{
+  margin: 0 auto;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 890px;
 }
-
 
 table {
   /*margin-top:30px;
@@ -145,11 +157,14 @@ td {
   color: rgb(17, 51, 145);
   background-color:rgb(181, 218, 253);
   border-radius: 5px;
+  margin:auto;
   padding-top:10px;
-  padding-left:20px;
-  width: 738px;
+  padding-left:10px;
+  width: 720px;
   height: 45px;
 }
+
+
 
 
  #footer{
