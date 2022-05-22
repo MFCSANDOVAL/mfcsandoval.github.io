@@ -16,13 +16,11 @@ btnResumen.addEventListener('click',() => {
   
       const calcula  = calcular(valorA,valorEntrada,valorB);
       actualizarResultado(calcula);
-    }else{
-        alert('debe complerta la cantidad');
     }
   
 
     if(valorA == ''){
-      alert('debe completar la cantidad');
+      alert('Debe completar la cantidad');
     }else{
   
   
